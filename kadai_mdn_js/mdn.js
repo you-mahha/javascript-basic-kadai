@@ -1,6 +1,6 @@
 const today = new Date();
-// 年代は() - 1と入力
-const fullyear = today.getFullYear() - 1;
+
+const fullyear = today.getFullYear();
 
 // 月は() + 1と入力
 const month = today.getMonth() + 1;
